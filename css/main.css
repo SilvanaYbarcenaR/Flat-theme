@@ -13,3 +13,33 @@
 .clearfix:after {
   clear: both;
 }
+/*css del menu*/
+.navbar {
+    margin-bottom: 0;
+    background-color:#34495E;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color:#B0B7BD  !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#2C3E50 !important;
+    border-radius:5px;
+}
+ul.nav.navbar-nav.navbar-right{
+	padding:15px 0 0 0;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+ul.nav.navbar-nav.navbar-right li<a{
