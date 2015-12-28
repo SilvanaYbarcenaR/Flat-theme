@@ -13,33 +13,86 @@
 .clearfix:after {
   clear: both;
 }
-/*css del menu*/
-.navbar {
-    margin-bottom: 0;
-    background-color:#34495E;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
+body{
+	font
+}
+.bg-header{
+	background: #34495e;
+}
+.navbar-inverse .navbar-nav > .active > a, ver, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #2c3e50!important; border-radius: 10px;
+}
+.navbar-inverse .navbar-nav {
+  margin-top: 20px;
+}
+.navbar-inverse .navbar-brand {
+  line-height: 50px;
+}
+.navbar-inverse {
+    border:0;
+}
+#main-slider .carousel h2 {
+  font-size: 36px;
+}
+#main-slider .carousel .text {
+  color:white;
+}
+#main-slider .carousel .btn {
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+  margin-top: 5px;
+}
+#main-slider .carousel .btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.navbar li a, .navbar .navbar-brand {
-    color:#B0B7BD  !important;
+#main-slider .carousel .item {
+  background-position: 50%;
+  margin-top:80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 600px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
 }
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#2C3E50 !important;
-    border-radius:5px;
+#main-slider .carousel .item:first-child {
+  top: auto;
+  position: relative;
 }
-ul.nav.navbar-nav.navbar-right{
-	padding:15px 0 0 0;
+#main-slider .carousel .item.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
 }
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
+#main-slider .next, #main-slider .prev{
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: inline-block;
+  margin-top: -25px;
+  font-size: 24px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  z-index: 5;
 }
-ul.nav.navbar-nav.navbar-right li<a{
+#main-slider .prev {
+  left: 10px;
+}
+#main-slider .next {
+  right: 10px;
+}
