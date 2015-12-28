@@ -14,7 +14,7 @@
   clear: both;
 }
 body{
-	font
+	font-family: 'Roboto', sans-serif!important;
 }
 .bg-header{
 	background: #34495e;
