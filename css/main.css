@@ -31,6 +31,9 @@ body{
 .navbar-inverse {
     border:0;
 }
+.navbar-toggle {
+   margin-top: 22.5px;
+}
 #main-slider .carousel h2 {
   font-size: 36px;
 }
