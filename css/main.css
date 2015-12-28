@@ -1,3 +1,6 @@
+*{
+	outline: 1px solid green;
+}
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {
@@ -42,4 +45,4 @@ ul.nav.navbar-nav.navbar-right{
     border-color: transparent;
     color: #fff !important;
 }
-ul.nav.navbar-nav.navbar-right li<a{
+/*css section -bottom*/
