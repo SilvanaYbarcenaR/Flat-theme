@@ -1,6 +1,3 @@
-*{
-	outline: 1px solid green;
-}
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {
@@ -99,7 +96,3 @@ body{
 #main-slider .next {
   right: 10px;
 }
-<<<<<<< HEAD
-/*css section -bottom*/
-=======
->>>>>>> 8349a602f4e265f22e85ff54277b55319c01ac0d
