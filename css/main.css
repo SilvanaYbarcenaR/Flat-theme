@@ -233,3 +233,24 @@ ul.breadcrumb > li.active {
   border: 1px solid #eee;
   background: white;
 }
+.progress{
+  line-height: 30px;
+  height: 30px;
+  background: white;
+}
+.position{
+  display: block;
+  padding-top: 5px; 
+}
+.btn-social.btn-facebook {
+    background: #4f7dd4;
+}
+.btn-social.btn-google-plus{
+  background: #dc422b;
+}
+.btn-social.btn-twitter{
+  background: #5bceff;
+}
+.btn-social.btn-linkedin {
+    background: #21a6d8;
+}
