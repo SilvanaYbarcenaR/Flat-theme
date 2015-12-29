@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <title>Home - Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
@@ -23,13 +23,11 @@
     <link rel="shortcut icon" href="images/ico/favicon.ico">
 </head><!--/head-->
 <body>
-    <header class="navbar navbar-inverse navbar-fixed-top bg-header">
+    <header class="navbar navbar-inverse navbar-fixed-top bg-header-footer">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="fa fa-bars txt-white"></span>
                 </button>
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
             </div>
@@ -44,8 +42,8 @@
                 </ul>
             </div>
         </div>
-    </header><!--fin header-->
-    <section id="main-slider">
+    </header><!--header-->
+    <section id="main-slider" style="padding:0">
         <div class="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
@@ -57,7 +55,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="carousel-content centered text">
+                                <div class="carousel-content centered txt-white">
                                     <h2>Powerful and Responsive Web Design</h2>
                                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                                 </div>
@@ -69,7 +67,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="carousel-content centered text">
+                                <div class="carousel-content centered txt-white">
                                     <h2>Powerful and Responsive Web Design</h2>
                                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                                 </div>
@@ -81,7 +79,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12   ">
-                               <div class="carousel-content centered text">
+                               <div class="carousel-content centered txt-white">
                                     <h2>Powerful and Responsive Web Design</h2>
                                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                                 </div>
@@ -93,129 +91,214 @@
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <img src="images/ico/ion-ios-arrow-back.png"/>
+            <span class="fa fa-chevron-left"></span>
         </a>
         <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <img src="images/ico/ion-ios-arrow-forward.png"/>
+            <span class="fa fa-chevron-right"></span>
         </a>
-    </section><!--/#main-slider-->
-<section id="ourlatest">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <h3>Our Latest Project</h3>
-                <p>Pellentesque habitant morbi tristique senectus et metus et malesuada fames ac turpis egestas</p>
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#scroll" data-slide="prev"><span class"glyphicon glyphicon-chevron-left"></span></a>
-                </div>
-                <div class="btn-group">
-                    <a class="btn btn-danger" href="#scroll" data-slide="next"><span class"glyphicon glyphicon-chevron-right"></span></a>
-                </div>
-            </div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-xs-4">
-                        <div class="item1">
-                            <img src="images/portfolio/recent/item1.png" alt="">
-                            <h5>Nova-Corporate site template</h5>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <div class="item3">
-                            <img src="images/portfolio/recent/item3.png" alt="">
-                            <h5>Fornax-Apps site template</h5>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <div class="item2">
-                            <img src="images/portfolio/recent/item2.png" alt="">
-                            <h5>Flat Theme-Business Theme</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-</section>
-<section id="testimonios">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <h2>What our clients say</h2>
-                    <p>Pellesntesque habitant morbi tristique senectus et netus et maleusada fames ac turpis egestas</p>
-                </div>   
-            </div>
-        </div>
+    </section><!--/.main-slider-->
+    <section id="services" class="bg-services txt-white">
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia, modi illum repellendus hic molestias eligendi, nulla neque nam ea et. Alias, voluptatibus. Totam.</p>
-                        <small>Someane famous in Source Title</small>
-                    </blockquote>
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia, modi illum repellendus hic molestias eligendi, nulla neque nam ea et. Alias, voluptatibus. Totam.</p>
-                        <small>Someane famous in Source Title</small>
-                    </blockquote>
-                </div>
-                <div class="col-md-6">
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia, modi illum repellendus hic molestias eligendi, nulla neque nam ea et. Alias, voluptatibus. Totam.</p>
-                        <small>Someane famous in Source Title</small>
-                    </blockquote>
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia, modi illum repellendus hic molestias eligendi, nulla neque nam ea et. Alias, voluptatibus. Totam.</p>
-                        <small>Someane famous in Source Title</small>
-                    </blockquote>
-                </div>
-            </div>     
-    </div>
-</section>
-<section id="bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <h3>About Us</h3>
-                <p>Pellentesque habitant morbi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic accusamus quo earum error temporibus quas fuga nemo, sequi amet velit, voluptas aliquid officia adipisci repudiandae itaque repellendus harum repellat</p>
-                <p>Pellentesque habitant morbi Lorem ipsum dolor sit</p>
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-twitter icon-service"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Twitter Marketing</h3>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-facebook icon-service"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Facebook Marketing</h3>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="fa fa-google-plus icon-service"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Google Plus Marketing</h3>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
             </div>
-            <div class="col-md-3 col-sm-6">
-                <h3>Company</h3>
-                <div>
-                    <ul class="arrow">
-                        <li>Company Overview</li>
-                        <li>Meet The Team</li>
-                        <li>Our Awesome Partners</li>
-                        <li>Our Services</li>
-                        <li>Frequently Asked Questions</li>
-                        <li>Contact Us</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms of Use</li>
-                        <li>Copyright</li>
+        </div>
+    </section><!--/#services-->
+    <section id="ourlatest">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-justify">
+                    <h3>Our Latest Project</h3>
+                    <p>Pellentesque habitant morbi tristique senectus et metus et malesuada fames ac turpis egestas</p>
+                    <div class="btn-group">
+                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="item1">
+                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                <h5><b>Nova-Corporate site template</b></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="item3">
+                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                <h5><b>Fornax-Apps site template</b></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="item2">
+                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                <h5><b>Flat Theme-Business Theme</b></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section id="testimonios" class="bg-testimonios txt-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h2>What our clients say</h2>
+                        <p>Pellesntesque habitant morbi tristique senectus et netus et maleusada fames ac turpis egestas</p>
+                    </div>
+                    <div class="gap"></div>   
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia.. Totam.</p>
+                            <small class="txt-small">Someane famous in Source Title</small>
+                        </blockquote>
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia.</p>
+                            <small class="txt-small">Someane famous in Source Title</small>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia.</p>
+                            <small class="txt-small">Someane famous in Source Title</small>
+                        </blockquote>
+                        <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni harum qui nostrum animi odit saepe mollitia.</p>
+                            <small class="txt-small">Someane famous in Source Title</small>
+                        </blockquote>
+                    </div>
+                </div>     
+        </div>
+    </section>
+    <section id="bottom" class="bg-header-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="txt-white">About Us</h4>
+                    <p>Pellentesque habitant morbi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic accusamus quo earum error temporibus.</p>
+                    <p>Pellentesque habitant morbi Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="txt-white">Company</h4>
+                    <div>
+                        <ul class="arrow">
+                            <li><i class="fa fa-angle-right"></i><a href=""> Company Overview</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Meet The Team</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Our Awesome Partners</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Our Services</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Frequently Asked Questions</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Contact Us</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Privacy Policy</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Terms of Use</a></li>
+                            <li><i class="fa fa-angle-right"></i><a href=""> Copyright</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="txt-white">Latest Blog</h4>
+                        <div class="media">
+                            <div class="pull-left">
+                                <img src="images/blog/thumb1.jpg" alt="">
+                            </div>
+                            <div class="media-body">
+                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
+                                <small>Posted 17 Aug 2013</small>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="pull-left">
+                                <img src="images/blog/thumb2.jpg" alt="">
+                            </div>
+                            <div class="media-body">
+                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
+                                <small>Posted 13 Sep 2013</small>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="pull-left">
+                                <img src="images/blog/thumb3.jpg" alt="">
+                            </div>
+                            <div class="media-body">
+                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
+                                <small>Posted 11 Jul 2013</small>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <h4 class="txt-white">Address</h4>
+                    <address>
+                        <strong>Twitter, Inc.</strong><br>
+                        795 Folsom Ave, Suite 600</br>
+                        San Francisco, CA 94107</br>
+                        <abbr title="Phone">P:</abbr> (123) 456-7890
+                    </address>
+                    <h4 class="txt-white">Newsletter</h4>
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter your email">
+                            <span class="input-group-btn">
+                                <button class="btn btn-danger" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><!--/#bottom-->
+    <footer id="footer" class="bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <h3>Latest Blog</h3>
-                <div class="media">
-                    <div class="media-left">
-                        <a href="#">
-                        <img class="media-object" src="images/blog/avatar.jpg" alt="...">
-                        </a>
-                    </div>
-                <div class="media-body">
-                    <h4 class="media-heading">Media heading</h4>
-                </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <h3>Address</h3>
-                <p>Pellentesque habitant morbi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic accusamus quo earum error temporibus quas fuga nemo, sequi amet velit, voluptas aliquid officia adipisci repudiandae itaque repellendus harum repellat</p>
-                <p>Pellentesque habitant morbi Lorem ipsum dolor sit</p>
-            </div>
         </div>
-    </div>
-</section>
+    </footer><!--/#footer-->
     
 </body>
 </html>
