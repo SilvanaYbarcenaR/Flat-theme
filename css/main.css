@@ -228,3 +228,8 @@ ul.breadcrumb > li.active {
   width:100%;
   height:265px;
 }
+.blog1, .blog2{
+  padding:0px 10px 12px 10px;
+  border: 1px solid #eee;
+  background: white;
+}
