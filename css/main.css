@@ -15,7 +15,7 @@
 }
 body{
 	font-family: 'Roboto', sans-serif!important;
-  font-weight: 300;
+  font-weight: 300!important;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
@@ -194,4 +194,21 @@ ul.arrow a, .media-heading a{
 #footer a:hover, .media-heading a:hover, .arrow a:hover {
     color: #d9534f;
     text-decoration: none;
+}
+.distance-menu{
+  margin-top:60px;
+}
+ul.breadcrumb {
+  margin: 20px 0 0;
+  background: transparent;
+}
+ul.breadcrumb > li {
+  text-shadow: none;
+}
+ul.breadcrumb > li > a,
+ul.breadcrumb > li .divider {
+  color: #fff;
+}
+ul.breadcrumb > li.active {
+  color: rgba(255, 255, 255, 0.7);
 }
