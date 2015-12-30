@@ -233,6 +233,11 @@ ul.breadcrumb > li.active {
   background: white;
   border-radius:5px;
 }
+.blog-item{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 .progress{
   line-height: 30px;
   height: 30px;
