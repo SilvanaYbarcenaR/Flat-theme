@@ -278,3 +278,12 @@ ul.tag-cloud li{
 .listado {
   padding:0;
 }
+
+
+
+
+
+.pagination>li>a{
+  border:0;
+  color:#34495E;
+}
