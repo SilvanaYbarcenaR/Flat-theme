@@ -255,3 +255,11 @@ ul.breadcrumb > li.active {
 .btn-social.btn-linkedin {
     background: #21a6d8;
 }
+.btn-social {
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    padding: 0;
+}
