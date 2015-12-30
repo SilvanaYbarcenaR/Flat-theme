@@ -263,3 +263,14 @@ ul.breadcrumb > li.active {
     text-align: center;
     padding: 0;
 }
+ul.tag-cloud{
+  list-style:none;
+  padding:0;
+  margin:0;}
+ul.tag-cloud li{
+  display:inline-block;
+  margin:0 0 2px 0;
+}
+.listado {
+  padding:0;
+}
