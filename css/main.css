@@ -38,6 +38,11 @@ hr {
 .centered{
   margin-top: 22%!important;
 }
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .txt-small{
   color:rgba(255, 255, 255, 0.8)!important;
 }
@@ -288,4 +293,33 @@ ul.tag-cloud li{
 .pagination>li>a:hover{
   background: #34495e;  
   color:#fff;
+}
+.blog img{
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.item1:hover .overlay, .item2:hover .overlay, .item3:hover .overlay {
+  opacity: 1;
+}
+.overlay i{
+  margin-top: 40%;
+  font-size: 35px;
+  color:#e74c3c;
+  border:2px solid #e74c3c;
+  border-radius: 50%;
+  padding: 10px;
 }
