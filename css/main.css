@@ -286,4 +286,9 @@ ul.tag-cloud li{
 .pagination>li>a{
   border:0;
   color:#34495E;
+  font-weight: 600;
+}
+.pagination>li>a:hover{
+  background: #34495e;
+  color:#fff;
 }
