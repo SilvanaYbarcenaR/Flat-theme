@@ -36,7 +36,13 @@ hr {
     border-bottom: 1px solid #fff;
 }
 .centered{
-  margin-top: 22%!important;
+  margin-top: 230px!important;
+}
+.centered-1{
+  margin-top: 150px!important;
+}
+.centered-2{
+  margin-top: 140px!important;
 }
 .center-block {
   display: block;
@@ -66,6 +72,9 @@ hr {
 }
 .bg-gray{
   background: #f5f5f5;
+}
+.bg-black{
+background: rgba(0, 0, 0, 0.8);
 }
 .bg-footer{
   background: #2c3e50;
@@ -322,4 +331,25 @@ ul.tag-cloud li{
   border:2px solid #e74c3c;
   border-radius: 50%;
   padding: 10px;
+}
+#main-slider .active .animation.animated-item-1{
+    -webkit-animation: fadeInUp 300ms linear 300ms both;
+    -moz-animation: fadeInUp 300ms linear 300ms both;
+    -o-animation: fadeInUp 300ms linear 300ms both;
+    -ms-animation: fadeInUp 300ms linear 300ms both;
+    animation: fadeInUp 300ms linear 300ms both;
+}
+#main-slider .active .animation.animated-item-2{
+    -webkit-animation: fadeInUp 600ms linear 600ms both;
+    -moz-animation: fadeInUp 600ms linear 600ms both;
+    -o-animation: fadeInUp 600ms linear 600ms both;
+    -ms-animation: fadeInUp 300ms linear 600ms both;
+    animation: fadeInUp 600ms linear 600ms both;
+}
+#main-slider .active .animation.animated-item-3{
+    -webkit-animation: fadeInUp 900ms linear 900ms both;
+    -moz-animation: fadeInUp 900ms linear 900ms both;
+    -o-animation: fadeInUp 900ms linear 900ms both;
+    -ms-animation: fadeInUp 900ms linear 900ms both;
+    animation: fadeInUp 900ms linear 900ms both;
 }
