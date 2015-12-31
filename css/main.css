@@ -248,7 +248,7 @@ ul.breadcrumb > li.active {
 .blog-item .blog-content {
     padding: 20px;
 }
-.blog-item .blog-content .entry>span a{
+.blog-item .blog-content .entry>span a, .blog-content .tag-cloud>li, .blog-content .tag-cloud>li>a{
     color: #999;
     padding-right: 8px;
 }
@@ -280,15 +280,12 @@ ul.tag-cloud li{
   display:inline-block;
   margin:0 0 2px 0;
 }
-.listado {
-  padding:0;
-}
 .pagination>li>a{
   border:0;
   color:#34495E;
   font-weight: 600;
 }
 .pagination>li>a:hover{
-  background: #34495e;
+  background: #34495e;  
   color:#fff;
 }
