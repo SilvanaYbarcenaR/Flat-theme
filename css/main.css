@@ -36,7 +36,18 @@ hr {
     border-bottom: 1px solid #fff;
 }
 .centered{
-  margin-top: 22%!important;
+  margin-top: 230px!important;
+}
+.centered-1{
+  margin-top: 150px!important;
+}
+.centered-2{
+  margin-top: 140px!important;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .txt-small{
   color:rgba(255, 255, 255, 0.8)!important;
@@ -62,8 +73,14 @@ hr {
 .bg-gray{
   background: #f5f5f5;
 }
+.bg-black{
+background: rgba(0, 0, 0, 0.8);
+}
 .bg-footer{
   background: #2c3e50;
+}
+.pb-30{
+  padding-bottom: 30px;
 }
 .navbar-inverse .navbar-nav > .active > a, ver, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #2c3e50!important; border-radius: 10px;
@@ -238,14 +255,16 @@ ul.breadcrumb > li.active {
     border-radius: 5px;
     margin-bottom: 20px;
 }
-.progress{
-  line-height: 30px;
-  height: 30px;
-  background: white;
+.blog-item .img-blog {
+    width: 100%;
+    border-radius: 5px 5px 0 0; 
 }
-.position{
-  display: block;
-  padding-top: 5px; 
+.blog-item .blog-content {
+    padding: 20px;
+}
+.blog-item .blog-content .entry>span a, .blog-content .tag-cloud>li, .blog-content .tag-cloud>li>a{
+    color: #999;
+    padding-right: 8px;
 }
 .btn-social.btn-facebook {
     background: #4f7dd4;
@@ -275,20 +294,62 @@ ul.tag-cloud li{
   display:inline-block;
   margin:0 0 2px 0;
 }
-.listado {
-  padding:0;
-}
-
-
-
-
-
 .pagination>li>a{
   border:0;
   color:#34495E;
   font-weight: 600;
 }
 .pagination>li>a:hover{
-  background: #34495e
+  background: #34495e;  
   color:#fff;
+}
+.blog img{
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.item1:hover .overlay, .item2:hover .overlay, .item3:hover .overlay {
+  opacity: 1;
+}
+.overlay i{
+  margin-top: 40%;
+  font-size: 35px;
+  color:#e74c3c;
+  border:2px solid #e74c3c;
+  border-radius: 50%;
+  padding: 10px;
+}
+#main-slider .active .animation.animated-item-1{
+    -webkit-animation: fadeInUp 300ms linear 300ms both;
+    -moz-animation: fadeInUp 300ms linear 300ms both;
+    -o-animation: fadeInUp 300ms linear 300ms both;
+    -ms-animation: fadeInUp 300ms linear 300ms both;
+    animation: fadeInUp 300ms linear 300ms both;
+}
+#main-slider .active .animation.animated-item-2{
+    -webkit-animation: fadeInUp 600ms linear 600ms both;
+    -moz-animation: fadeInUp 600ms linear 600ms both;
+    -o-animation: fadeInUp 600ms linear 600ms both;
+    -ms-animation: fadeInUp 300ms linear 600ms both;
+    animation: fadeInUp 600ms linear 600ms both;
+}
+#main-slider .active .animation.animated-item-3{
+    -webkit-animation: fadeInUp 900ms linear 900ms both;
+    -moz-animation: fadeInUp 900ms linear 900ms both;
+    -o-animation: fadeInUp 900ms linear 900ms both;
+    -ms-animation: fadeInUp 900ms linear 900ms both;
+    animation: fadeInUp 900ms linear 900ms both;
 }
